@@ -12,6 +12,7 @@
         <?php
         echo 'Kode PHP di sini';
         // ...
-    ?>
+        ?>
+        <p> Kode <?php echo "PHP";?> di HTML </p>
     </body>
 </html>
