@@ -19,6 +19,11 @@
         
         $bil = 3;
         echo $bil;
+        echo "\n";
+        var_dump($bil);
+        echo "\n";
+        print_r($bil);
+        
         ?>
     </body>
 </html>
