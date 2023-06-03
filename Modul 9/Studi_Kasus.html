@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Studi Kasus</title>
+
+    </head>
+    <body>
+        <div class="Login-Page" align = "center">
+            <h3>Login </h3>
+            <form name ="formin" action="result.php" method="post">
+                Username <input type="text" name="username" value="" /> <br />
+                Password &nbsp;<input type="password" name="pass" /> <br />
+                <input type="submit" name = "submit" value="Login" onClick="thewarn()"/>
+ 
+            </form>
+                
+        </div>
+        <script type="text/javascript">
+            function thewarn() {
+                alert('Masukan Username dan Password');
+
+            function check() {
+                if (formin.username.value == "" || formin.pass.value =="") {
+                    thewarn();
+                }
+            }
+                
+            }
+            
+        </script>
+    </body>
+</html>
