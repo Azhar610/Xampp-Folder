@@ -14,5 +14,11 @@
         // ...
         ?>
         <p> Kode <?php echo "PHP";?> di HTML </p>
+
+        <?php
+        // Deklarasi dan inisialisasi
+        $bil = 3;
+        echo $bil;
+        ?>
     </body>
 </html>
