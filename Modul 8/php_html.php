@@ -23,6 +23,41 @@
         var_dump($bil);
         echo "\n";
         print_r($bil);
+
+        echo nl2br("\n");
+
+        $var = "";
+        var_dump($var);
+
+        echo nl2br("\n");
+        
+        $var = null;
+        var_dump($var);
+        echo nl2br("\n");
+        ?>
+
+        <?php
+        $bil = 3;
+        var_dump(is_int($bil));
+        echo nl2br("\n");
+
+        $var = "";
+        var_dump(is_string($var));
+        echo nl2br("\n");
+        
+        ?>
+
+        <?php
+        $str = '123abc';
+        
+        $bil = (int) $str; // $bil = 123
+        echo $bil;
+        echo nl2br("\n");
+
+        echo gettype($str);
+        echo nl2br("\n");
+
+        echo gettype($bil);
         
         ?>
     </body>
