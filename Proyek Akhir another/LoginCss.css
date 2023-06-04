@@ -1,0 +1,15 @@
+.container{
+    margin-top: 150px;
+}
+.form-label{
+    margin-left: -300px ;
+}
+
+#username{
+    
+    width: 400px;
+}
+#pass{
+    
+    width: 400px;
+}
