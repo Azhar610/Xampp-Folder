@@ -2,9 +2,17 @@
 <html>
     <head>
         <title>List Buku</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     </head>
     <body>
+        <nav class="navtop">
+            <div>
+                <h1>Home Web</h1>
+                <a href="HomePage.php"><i class="fas fa-home"></i>Home</a>
+                <a href="CRUD.php"><i class="fas fa-address-book"></i>List Buku</a>
+            </div>
+        </nav>
         <div class="container my-5">
             <h2>List Buku</h2>
             <a class="btn btn-primary" href="create.php" role="button">Tambah Buku</a>

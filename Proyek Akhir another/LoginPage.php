@@ -7,7 +7,7 @@
         if ($user == "budi" && $pass == "1234") {
             $_SESSION['login'] = $user;
 
-            header("location: CRUD.php");
+            header("location: HomePage.php");
         } else {
             ?>
                 <html>
